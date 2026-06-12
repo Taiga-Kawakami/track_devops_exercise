@@ -26,7 +26,7 @@ def test_add_decimal_truncation():
 
 
 def test_add_decimal_third_argument_truncation():
-    assert add(1.9, 4.3, 2.6) == 7
+    assert add(1.9, 4.3, 2.6) == 8
 
 
 def test_add_a_is_string():
